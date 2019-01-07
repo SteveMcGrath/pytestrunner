@@ -1,5 +1,7 @@
 # Testrunner
 
+![](testrunner.gif)
+
 Testrunner is a simple testing tool that leverages pyenv & virtualenv together to build single-use python environments for the purposes of testing.  Originally written to attempt to build an environment for local testing that would work similarly to my Travis builds for pytenable, their may be use cases outside of that for other folks.
 
 Testrunner requires 2 files to be included within the root of the repository you wish to test.  a `dev-requirements.txt` file for the purposes of building the test environment, and a `testing.settings.sh` file with ad a minimum, 2 functions defined.
