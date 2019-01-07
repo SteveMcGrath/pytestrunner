@@ -11,7 +11,7 @@ An environment variable also needs to be set defining an array of the python ver
 
 ## Installation
 
-Installation of testrunner is easy.  First install pyenv and pyenv-virtualenv, then plud the testrunner script into a location that you can run it from.
+Installation of testrunner is easy.  First install pyenv and pyenv-virtualenv, then plug the testrunner script into a location that you can run it from.
 
     brew install pyenv pyenv-virtualenv
     cp testrunner.sh ~/bin
